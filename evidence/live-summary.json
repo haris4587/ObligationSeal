@@ -1,0 +1,19 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "address": "0x65467a491Fac9eDd5dc603699c8E7B817BCd63A5",
+  "sender": "0x647C6E2B4C62edFc774613d8B53d5f32e67edFFc",
+  "agreement_id": "f407b8740f3758237a5b6589bfdd0cb9bc024a6a937d97d9648bcd17ddf12e53",
+  "request_id": "230056ba65a5e65dcfb179f0298dfd657eae4d625c4616884cbfcebf92fcd05d",
+  "implementation_commit": "cd16b38661980a20ec678cb5f8f5d39691dc4bef",
+  "source_sha256": "a066225f9713d8fba67680530cdd043c349be1ca0473be95df23e12b094e5457",
+  "transactions": {
+    "deploy": "0x3d856ba97963080deef86405b1d276a1b021ec3652428e0d9a90e9e67e3ecc2f",
+    "register": "0xb298e7f2de5dcb5a5a81deb4342dc100aac7c82453bad3b65734c2ed0ad701a7",
+    "submit": "0xe660371490033223a5f1937978ace0a27bcee16f14c79e8193f01cff9b4d6b52",
+    "evaluate": "0xfc94b3505dacb18322d77c4c36c5ebb6db3e6c7cc0200c65d81dc6dd38ae7cf5"
+  },
+  "outcome": "BREACHED",
+  "decision_hash": "11647703d946593f83f1e3f039fcd5e9d330d7d9ec2bad0c8ea9d0650f117457",
+  "fixture_commit": "cd16b38661980a20ec678cb5f8f5d39691dc4bef"
+}

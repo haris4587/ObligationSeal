@@ -1,0 +1,37 @@
+{
+  "agreement_id": "f407b8740f3758237a5b6589bfdd0cb9bc024a6a937d97d9648bcd17ddf12e53",
+  "attempts": 0,
+  "domain": "ObligationSeal/1/delivery",
+  "head": "",
+  "package": {
+    "delivery_id": "D-001",
+    "evidence": [
+      {
+        "bytes": 288,
+        "role": "delivery",
+        "sha256": "7254eccdf79486b941733bb9cc3c4bb44851890c25bde0916b3e325a09e09377",
+        "url": "https://raw.githubusercontent.com/haris4587/ObligationSeal/cd16b38661980a20ec678cb5f8f5d39691dc4bef/fixtures/delivery.json"
+      },
+      {
+        "bytes": 329,
+        "role": "completion",
+        "sha256": "5b0f0fc224105a91294336c4d2207aed1777864a990f1deff03b33bebe958a83",
+        "url": "https://raw.githubusercontent.com/haris4587/ObligationSeal/cd16b38661980a20ec678cb5f8f5d39691dc4bef/fixtures/completion.json"
+      },
+      {
+        "bytes": 376,
+        "role": "test",
+        "sha256": "f296c01e49076f15aad1db1dbf487aafeccd9f66179b4d0895ec50fef30bce4a",
+        "url": "https://raw.githubusercontent.com/haris4587/ObligationSeal/cd16b38661980a20ec678cb5f8f5d39691dc4bef/fixtures/test.json"
+      },
+      {
+        "bytes": 312,
+        "role": "acceptance",
+        "sha256": "5b0b4a95b84cff328914d34d7863992f06e5e941497f9c2b7bbaed3a742fef51",
+        "url": "https://raw.githubusercontent.com/haris4587/ObligationSeal/cd16b38661980a20ec678cb5f8f5d39691dc4bef/fixtures/acceptance.json"
+      }
+    ]
+  },
+  "package_hash": "13798c89cda7cc19f77603c4f7dd5ea7bcfa5620ec5b1f5d397d707d6ad06bca",
+  "status": "PENDING"
+}

@@ -1,0 +1,29 @@
+{
+  "delivery_id": "D-001",
+  "evidence": [
+    {
+      "role": "delivery",
+      "url": "https://raw.githubusercontent.com/haris4587/ObligationSeal/cd16b38661980a20ec678cb5f8f5d39691dc4bef/fixtures/missing/delivery.json",
+      "sha256": "7254eccdf79486b941733bb9cc3c4bb44851890c25bde0916b3e325a09e09377",
+      "bytes": 288
+    },
+    {
+      "role": "completion",
+      "url": "https://raw.githubusercontent.com/haris4587/ObligationSeal/cd16b38661980a20ec678cb5f8f5d39691dc4bef/fixtures/missing/completion.json",
+      "sha256": "5b0f0fc224105a91294336c4d2207aed1777864a990f1deff03b33bebe958a83",
+      "bytes": 329
+    },
+    {
+      "role": "test",
+      "url": "https://raw.githubusercontent.com/haris4587/ObligationSeal/cd16b38661980a20ec678cb5f8f5d39691dc4bef/fixtures/missing/test.json",
+      "sha256": "33a7d6ff2b3a1c1f6d48eb5a3e519db216718df879cfb1c68dedd2065b097ba2",
+      "bytes": 180
+    },
+    {
+      "role": "acceptance",
+      "url": "https://raw.githubusercontent.com/haris4587/ObligationSeal/cd16b38661980a20ec678cb5f8f5d39691dc4bef/fixtures/missing/acceptance.json",
+      "sha256": "d553478503eaa71ca9a08d2000766b0b28dc3e6bbe7bb7199dd1cb9f2b513a55",
+      "bytes": 169
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "decision": {
+    "agreement_id": "f407b8740f3758237a5b6589bfdd0cb9bc024a6a937d97d9648bcd17ddf12e53",
+    "attempt": 1,
+    "domain": "ObligationSeal/1/decision",
+    "package_hash": "13798c89cda7cc19f77603c4f7dd5ea7bcfa5620ec5b1f5d397d707d6ad06bca",
+    "previous": "",
+    "request_id": "230056ba65a5e65dcfb179f0298dfd657eae4d625c4616884cbfcebf92fcd05d",
+    "result": {
+      "obligations": {
+        "O1": "FULFILLED",
+        "O2": "BREACHED"
+      },
+      "outcome": "BREACHED",
+      "requirements": [
+        {
+          "citations": [
+            {
+              "quote": "Delivery D-001: Harbor Metrics release 1.2.0 delivered.\nCSV export module included",
+              "source": 0
+            },
+            {
+              "quote": "Completion record: CSV export module completed for Harbor Metrics release 1.2.0.",
+              "source": 1
+            }
+          ],
+          "id": "R1",
+          "reason": "Delivery and completion records both identify release 1.2.0 and confirm the CSV export module was delivered and completed.",
+          "state": "SATISFIED"
+        },
+        {
+          "citations": [
+            {
+              "quote": "Harbor Metrics release 1.2.0 export regression: 10 passed, 2 failed, 12 total.\nFailed cases: CSV-07 truncates negative decimals; CSV-11 omits timezone suffix.",
+              "source": 2
+            }
+          ],
+          "id": "R2",
+          "reason": "The test record affirmatively reports two failed export regression cases (CSV-07 and CSV-11) for the delivered release.",
+          "state": "VIOLATED"
+        }
+      ]
+    }
+  },
+  "decision_hash": "11647703d946593f83f1e3f039fcd5e9d330d7d9ec2bad0c8ea9d0650f117457"
+}

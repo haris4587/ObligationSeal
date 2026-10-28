@@ -1,0 +1,38 @@
+{
+  "agreement": {
+    "publishers": [
+      "haris4587/ObligationSeal"
+    ],
+    "reference": "OS-DEMO-2026",
+    "requirements": [
+      {
+        "acceptance": "Delivery and completion records identify release 1.2.0 and confirm the CSV export module was delivered and completed.",
+        "description": "Deliver the temperature export module for Harbor Metrics release 1.2.0.",
+        "id": "R1",
+        "obligation": "O1",
+        "roles": [
+          "delivery",
+          "completion"
+        ],
+        "violation": "A delivery or completion record affirmatively identifies a different release as the delivered release."
+      },
+      {
+        "acceptance": "The test record reports all 12 regression cases passing, and the acceptance record explicitly accepts those passing results.",
+        "description": "Pass all 12 export regression cases before acceptance.",
+        "id": "R2",
+        "obligation": "O2",
+        "roles": [
+          "test",
+          "acceptance"
+        ],
+        "violation": "The test record affirmatively reports one or more failed export regression cases for the delivered release."
+      }
+    ],
+    "title": "Synthetic Harbor Metrics delivery agreement",
+    "version": "1"
+  },
+  "chain": 61999,
+  "contract": "0x65467a491Fac9eDd5dc603699c8E7B817BCd63A5",
+  "domain": "ObligationSeal/1/agreement",
+  "owner": "0x647C6E2B4C62edFc774613d8B53d5f32e67edFFc"
+}
