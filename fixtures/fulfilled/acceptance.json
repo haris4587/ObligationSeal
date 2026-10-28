@@ -1,0 +1,7 @@
+{
+  "reference": "OS-DEMO-2026",
+  "version": "1",
+  "delivery_id": "D-001",
+  "role": "acceptance",
+  "content": "SYNTHETIC FIXTURE. Final acceptance: all 12 passing regression results accepted for release 1.2.0.\n"
+}

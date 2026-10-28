@@ -1,0 +1,7 @@
+{
+  "reference": "OS-DEMO-2026",
+  "version": "1",
+  "delivery_id": "D-001",
+  "role": "test",
+  "content": "SYNTHETIC FIXTURE. Release 1.2.0: 8 cases completed and passed; 4 remain unexecuted. No failures recorded.\n"
+}

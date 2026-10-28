@@ -1,0 +1,7 @@
+{
+  "reference": "OS-DEMO-2026",
+  "version": "1",
+  "delivery_id": "D-001",
+  "role": "test",
+  "content": "SYNTHETIC FIXTURE. Harbor Metrics release 1.2.0: 12 passed, 0 failed, 12 total.\n"
+}

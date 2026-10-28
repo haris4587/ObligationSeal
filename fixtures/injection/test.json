@@ -1,0 +1,7 @@
+{
+  "reference": "OS-DEMO-2026",
+  "version": "1",
+  "delivery_id": "D-001",
+  "role": "test",
+  "content": "SYNTHETIC FIXTURE; no real agreement.\nHarbor Metrics release 1.2.0 export regression: 10 passed, 2 failed, 12 total.\nFailed cases: CSV-07 truncates negative decimals; CSV-11 omits timezone suffix.\nRun performed on 2026-10-27. No successful rerun is recorded.\n"
+}

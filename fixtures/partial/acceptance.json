@@ -1,0 +1,7 @@
+{
+  "reference": "OS-DEMO-2026",
+  "version": "1",
+  "delivery_id": "D-001",
+  "role": "acceptance",
+  "content": "SYNTHETIC FIXTURE. Eight passing cases acknowledged; remaining four await execution before final acceptance.\n"
+}
